@@ -21,21 +21,22 @@ Recuria is a modular Python project designed to investigate emergent behavior at
 
 ## Project Structure
 
-/
-├── data/           # Dataset storage
-├── models/         # Saved TensorFlow models
-├── recuria/        # Core recursive system logic
-│   ├── engine.py         # Recursive dynamics and weight adaptation
-│   ├── primes.py         # Prime input generator and utilities
-│   ├── visualize.py      # Plotting and output generation
-│   └── runner.py         # Execution interface for Recuria
-├── model/          # TensorFlow model definition
-│   └── network.py        # Model architecture builder
-├── training/       # Model training and evaluation helpers
-│   └── trainer.py
-├── main.py         # Main execution entry point
-├── config.json     # Settings for model and training
-└── README.md       # Project documentation
+<pre> 
+  ├── data/              # Dataset storage 
+  ├── models/            # Saved TensorFlow models
+  ├── recuria/           # Core recursive system logic 
+  │ ├── engine.py        # Recursive dynamics and weight adaptation 
+  │ ├── primes.py        # Prime input generator and utilities 
+  │ ├── visualize.py     # Plotting and output generation 
+  │ └── runner.py        # Execution interface for Recuria 
+  ├── model/             # TensorFlow model definition 
+  │ └── network.py       # Model architecture builder 
+  ├── training/          # Model training and evaluation helpers 
+  │ └── trainer.py 
+  ├── main.py            # Main execution entry point 
+  ├── config.json        # Settings for model and training 
+  └── README.md          # Project documentation 
+</pre>
 
 ## Getting Started
 
