@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+
+
+# Model files
+models/
+*.h5
+
+# Dataset files
+*.npz
+
+# VSCode
+.vscode/
+
+recuria/archive/
+base/
+data/recuria_analysis.txt
+data/recuria_results.txt
